@@ -1,0 +1,229 @@
+html{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url(../assets/Images/email-pattern.png);
+    height: 100%;
+    margin:0;
+    padding:0;
+    
+}
+ 
+}
+h1{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    background-color:#4aaaa5;
+}
+
+
+
+h2{
+   color: #4aaaa5;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.section{
+    background: #ffffff;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    border-bottom: 1px solid gray;
+}
+
+
+}
+
+header {
+background-color: #ffffff;
+background-size:cover;
+background-position: center;
+height: 40px;
+width: 200px;
+
+
+}
+
+
+.box-set{
+    background: #ffffff;
+}
+
+ .container {
+    background: #4aaaa5;
+    height: 35px;
+    width: 240px;
+    color: #ffffff;
+
+
+}
+
+nav{
+    
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    line-height: 60px;
+  
+
+}
+
+ nav ul{
+    float: right;
+    margin:0;
+    padding:0;
+    padding-right: 42px;    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 16px;
+}
+
+
+p{
+    color: #777777;
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    top: 30%;
+}
+
+
+footer {
+    background: #666666;
+    text-align: center;
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+}
+
+
+.heading{
+    color: #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 22%;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 7%;   
+}
+
+
+
+
+
+.heading2{
+    color: #ffffff;
+    position: absolute;
+    left: 40%;
+    top: 22% ;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 254px;
+    height: 7%;
+    
+}
+
+.heading3{
+    color: #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 54%;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 7%;
+    
+}
+
+.heading4{
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: 31%;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 7%;
+
+}
+
+.heading5{
+    color: #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 89%;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 7%;
+
+}
+
+.info{
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    left:20%;
+    top:25%;
+    
+}
+
+.banner{
+    position: absolute;
+    left: 20%;
+    
+    
+    
+}
+
+.color{
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 15px;
+    height: 4%;
+}
+
+input[type=text], select, textarea {
+    width: 640%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+
+  a:visited{
+      color: black;
+  }
+
+  a:hover{
+      color: green;
+  }
+
+  a:active{
+      color: red;
+  }
+
+  @media (min-width: 980px) { ... };
+
+  @media (min-width: 768px) { ... };
+
+  @media (min-width: 640px) { ... };
+
+
