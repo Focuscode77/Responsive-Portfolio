@@ -65,7 +65,7 @@ h2, h3{
     line-height: 90px;
     color: #fff;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     text-decoration: none;
 }
 
@@ -204,3 +204,63 @@ input[type=submit]{
     padding: 7px 20px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 320px){
+    body {
+        background: url(../assets/Images/email-pattern.png)
+        font-size: 18px;
+        line-height: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+       color:#EE82EE;
+    
+    }
+    footer{
+        position: fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        background: #666;
+        color: #fff;
+        padding: 0px 0;
+        clear: both;
+        border-top: 8px solid #4aaaa5;
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+    }
+    .auth-image{
+        width: 125px;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+        margin-right: 25px;
+    }
+    nav a{
+        color: #999;
+        text-decoration: none;
+        margin-left: 15px;
+        display: inline-block;
+        border-left: 1px solid #efefef;
+        padding-left: 15px;
+        line-height: 18px;
+        text-align: center;
+    
+    }
+};
+
+    @media only screen and (max-width: 980px){
+        footer{
+            position: fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            background: #666;
+            color: #fff;
+            padding: 0px 0;
+            clear: both;
+            border-top: 8px solid #4aaaa5;
+            color: #ccc;
+            font-size: 12px;
+            text-align: center;
+        }
+    };
